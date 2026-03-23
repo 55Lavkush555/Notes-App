@@ -1,0 +1,141 @@
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.create-btn:hover {
+  background-color: #0056b3;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #f0f0f0;
+}
+
+.notes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 500px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #333;
+}
+
+.text {
+  width: 80%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.fix-img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.search {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.search div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .note {
+    width: calc(100% - 20px);
+  }
+}
